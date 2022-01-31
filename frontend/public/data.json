@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "service": "Hairdresser",
+        "performer": "Isabel",
+        "price": "2900",
+        "description": "Cutting and coloring",
+        "img": "./hairdresser.jpeg",
+        "availableToBook": [
+            {
+                "date": "2022-02-11",
+                "time": "13.30"
+        }
+    ]
+},
+{
+        "id": "2",
+        "service": "Hairdresser",
+        "performer": "Clara",
+        "price": "450",
+        "description": "Cutting",
+        "img": "./clip.jpeg",
+        "availableToBook": [
+        {
+                "date": "2022-02-09",
+                "time": "11.00"
+        },
+        {
+                "date": "2022-02-09",
+                "time": "12.45"
+        }
+    ]
+},
+{
+    "id": "3",
+    "service": "Hairdresser",
+    "performer": "Clara",
+    "price": "1500",
+    "description": "Blow out and styling",
+    "img": "./styling.jpeg",
+    "availableToBook": [
+        {
+            "date": "2022-02-09",
+            "time": "11.00"
+        },
+        {
+            "date": "2022-02-06",
+            "time": "17.00"
+        }
+    ]
+}
+]

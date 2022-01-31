@@ -8,18 +8,18 @@ const Navbar = () => {
                     <Link to='/' className='menyLinks'>Home</Link>
                 </li>
                 <li className='menyList'>
-                    <Link to='/services' className='menyLinks'>Tjänster</Link>
+                    <Link to='/services' className='menyLinks'>Hairdresser</Link>
                 </li>
                 <li className='menyList'>
-                    <Link to='/services2' className='menyLinks'> Tjänster 2</Link>
+                    <Link to='/services2' className='menyLinks'>Beauty</Link>
                 </li>
             </div>
             <div className='menyHolder'>
                 <li className='menyList'>
-                    <Link to='/mybookings' className='menyLinks'>Mina bokningar</Link>
+                    <Link to='/mybookings' className='menyLinks'>My bookings</Link>
                 </li>
                 <li className='menyList'>
-                    <Link to='/mypage' className='menyLinks'>Logga in</Link>
+                    <Link to='/mypage' className='menyLinks'>Log In</Link>
                 </li>
             </div>
         </nav>

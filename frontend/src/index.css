@@ -76,7 +76,14 @@ header {
 
 footer {
   background-color: rgb(255, 196, 196);
-  height: 20vh;
+  height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer > a {
+  color: blueviolet;
 }
 
 .loginHeading {
@@ -103,4 +110,41 @@ input {
 .loginImg {
   height: 4rem;
   width: 4rem;
+}
+
+.service-main {
+  height: 80vh;
+}
+
+.main-service-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.serviceBox {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  box-shadow: 3px 3px 5px 5px #b6b6b691;
+  height: 300px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.hairdress-title {
+  width: 100%;
+  color: blue;
+}
+
+.service-logo {
+  width: 250px;
+  margin: auto;
+}
+
+.bookBtn {
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-right: 13px;
 }
