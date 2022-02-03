@@ -1,8 +1,9 @@
 const ServiceBox = ({ service }) => {
+    console.log(service.imgURL)
     return (
         <div className='serviceBox'>
-            <img src={service.img} alt={service.service} className="service-logo" />
-            <h3>{service.service}, {service.performer}</h3>
+            <img src={service.imgURL} alt={service.service} className="service-logo" />
+            <h3>{service.service}, {service.firstName}</h3>
             <p>{service.description}</p>
             <div className='servBtn'>
                 <button className="bookBtn">Book</button>

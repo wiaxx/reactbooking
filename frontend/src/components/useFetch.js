@@ -1,4 +1,4 @@
-// if the data  isn't available yet but is loading
+// if the data isn't available yet but is loading
 // if we get data
 // if error
 import { useEffect, useState } from "react";
