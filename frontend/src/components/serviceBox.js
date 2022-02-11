@@ -1,13 +1,14 @@
+// import { Link } from 'react-router-dom';
+
 const ServiceBox = ({ service }) => {
-    console.log(service.imgURL)
     return (
         <div className='serviceBox'>
-            <img src={service.imgURL} alt={service.service} className="service-logo" />
-            <h3>{service.service}, {service.firstName}</h3>
+            <img src={service.imgURL} alt={service.service} className="service-logo" />             <h3>{service.service}, {service.firstName}</h3>
             <p>{service.description}</p>
             <div className='servBtn'>
-                <button className="bookBtn">Book</button>
-                <span>{service.price}:-</span>
+           { /* <Link to="/services/hairdresser/bookings" className='bookBtn'>Book</Link> */ }
+               <button className="bookBtn">Book</button>
+                <span className="priceSpan">{service.price}:-</span>
             </div>
         </div>
     )

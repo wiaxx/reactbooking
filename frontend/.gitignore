@@ -9,7 +9,7 @@ package-lock.json
 README.md
 setupTests.js
 App.test.js
-
+/src/components/Test.js
 
 # testing
 /coverage

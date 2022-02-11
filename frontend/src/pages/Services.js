@@ -16,7 +16,7 @@ const Services = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 setServiceList(data)
             })
     }, [])
@@ -27,7 +27,7 @@ const Services = () => {
 
     return (
         <div className="service-main">
-            <h1 className="hairdress-title">This is hairdressers page!</h1>
+            <h1 className="service-title">Hairdressers!</h1>
             <div className="main-service-box">
                 {serviceList.map(service => (
                     <ServiceBox key={service.id} service={service} />

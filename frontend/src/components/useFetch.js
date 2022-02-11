@@ -11,9 +11,9 @@ const useFetch = (uri) => {
     useEffect(() => {
         if (!uri) return;
         fetch(uri)
-            .then(data => data.json())
+            .then((data) => data.json())
             .then(setData)
-            .then(setLoading(false))
+            .then(() => setLoading(false))
             .catch(setError)
     }, [uri]);
 

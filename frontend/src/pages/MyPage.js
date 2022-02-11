@@ -1,11 +1,16 @@
-import LoginForm from "../components/Login";
+import { useState } from "react";
+import LoginForm from "../components/LoginForm";
+import Greeting from "../components/Greeting";
 
 const MyPage = () => {
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
     return (
-        <div>
-            <h1 className="loginHeading">This is MY page!</h1>
-            <LoginForm />
-        </div>
+        <main className="myPageMain">
+            {isLoggedIn
+                ? <Greeting name="Amanda" />
+                : <LoginForm />}
+        </main>
     )
 }
 

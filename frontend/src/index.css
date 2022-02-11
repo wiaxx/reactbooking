@@ -114,6 +114,7 @@ input {
 
 .service-main {
   height: 80vh;
+  overflow: scroll;
 }
 
 .main-service-box {
@@ -147,4 +148,16 @@ input {
   color: white;
   padding: 10px;
   margin-right: 13px;
+}
+
+.priceSpan {
+  border-radius: 10px;
+  border: 0.5px solid lightgray;
+  padding: 10px;
+  margin-right: 13px;
+}
+
+.myPageMain {
+  height: 80vh;
+  margin-top: 10px;
 }
