@@ -9,7 +9,7 @@ const HomePage = () => {
 
     return (
         <header style={{ backgroundImage: `url(${data.urls.regular})` }}>
-            <h1>Chill out & relax!</h1>
+            <h1 className="homePageTitle">Beauty, hair and spa</h1>
         </header>
     )
 };

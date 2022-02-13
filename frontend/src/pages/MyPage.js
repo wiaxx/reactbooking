@@ -8,8 +8,8 @@ const MyPage = () => {
     return (
         <main className="myPageMain">
             {isLoggedIn
-                ? <Greeting name="Amanda" />
-                : <LoginForm />}
+                ? <Greeting name="Amanda" status={setIsLoggedIn}/>
+                : <LoginForm status={setIsLoggedIn} />}
         </main>
     )
 }

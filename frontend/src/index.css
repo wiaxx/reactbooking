@@ -100,7 +100,7 @@ footer > a {
   padding: 10px;
 }
 
-input {
+.loginForm > input {
   margin: 5px;
   line-height: 2;
   padding: 5px;
@@ -157,7 +157,43 @@ input {
   margin-right: 13px;
 }
 
-.myPageMain {
+.myPageMain, .createAccountMain {
   height: 80vh;
   margin-top: 10px;
+}
+
+.createAccountForm {
+  width: 50vw;
+  height: 60vh;
+  border: 1px solid lightblue;
+  box-shadow: 1px 1px 1px 1px lightblue;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.createAccountForm > input {
+  margin: 5px;
+  border-bottom: 1px solid rgba(250, 128, 114, 0.658);
+  line-height: 2;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.createAccountForm > button {
+  background-color: lightblue;
+  font-size: 1.2rem;
+  color: darkblue;
+}
+
+.createAccountTitle {
+  margin: auto;
+  color: lightblue;
+  font-size: 2rem;
+  text-shadow: 1px 1px lightblue;
+}
+
+.homePageTitle {
+  color: rgb(151, 93, 93);
 }

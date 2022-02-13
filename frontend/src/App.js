@@ -18,9 +18,8 @@ function App() {
         <Route path='/services/hairdresser' element={<Services />} />
         <Route path='/services/beauty' element={<ServicesTwo />} />
         <Route path='/mybookings' element={<MyBookings />} />
-        <Route path='/mypage' element={<MyPage />} >
-          <Route path='/mypage/createaccount' element={<CreateAccount />} />
-        </Route>
+        <Route path='/mypage' element={<MyPage />} />
+        <Route path='/createaccount' element={<CreateAccount />} />
       </Routes>
       <Footer />
     </>

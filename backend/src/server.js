@@ -44,7 +44,7 @@ app.get('/api/users', (req, res) => {
     })
 })
 
-// GET API specifik user
+// GET API specific user
 app.get('/api/users/:username', (req, res) => {
     connection.query(`SELECT * FROM users WHERE username = ?`, [req.params.username], (err, rows, fields) => {
         if (!err) {
@@ -79,10 +79,10 @@ app.post('/api/users', (req, res) => {
                     } else {
                         res.send('User details updated successfully!')
                     }
-                } else {
-                    console.log(err)
-                }
+                } 
             });
+        } else {
+            console.log("This is a error message: ", err)
         }
     })
 })
